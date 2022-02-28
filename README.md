@@ -72,3 +72,6 @@ On reviewing of the data revealed several problems:
    1. The marketing campaign should be targeted at the popular start and end stations for casual riders.
    2. To reach the most riders, marketing should be targeted for the busiest casual rider days (Friday, Saturday and Sunday), busiest hours morning office time(7 A.M. to 9 A.M.)         and in afternoon(3 P.M. to 7 P.M.) and the most popular months are (June, July, August and September).
    3. Further data should be released or obtained to determine which casual riders are local to the Chicago area (as these riders are more likely to consider an annual                   membership than a tourist from out of the city) and to determine what changes might need to be made to the existing membership subscription model to make it more                 appealing to casual riders (casual riders have an average trip length of 32 minutes, longer on weekends, and the annual membership has ride lengths caps of 45 minutes).
+
+
+# BY SUJAL DUBEY ON 28-Feb.-2022
