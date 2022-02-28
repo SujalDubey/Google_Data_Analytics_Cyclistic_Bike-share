@@ -66,7 +66,7 @@ On reviewing of the data revealed several problems:
 ![Screenshot (152)](https://user-images.githubusercontent.com/64157141/155992385-aff95bea-be5d-4973-927f-ce286f53be83.png)
 
  # V. SHARE 
-  Detailed documentation of [R]() code is attached in this repository only and interactive visualizations are available on my [Tableau Public](https://public.tableau.com/app/profile/lunistic/viz/GoogleDataAnalytics_16459876471880/GoogleCapstoneProjectChicagoCyclistData?publish=yes).
+  Detailed documentation of [R](https://github.com/SujalDubey/Google_Data_Analytics_Cyclistic_Bike-share/blob/main/2.%20Processing%20And%20Cleaning/R_City_trip.R) code is attached in this repository only and interactive visualizations are available on my [Tableau Public](https://public.tableau.com/app/profile/lunistic/viz/GoogleDataAnalytics_16459876471880/GoogleCapstoneProjectChicagoCyclistData?publish=yes).
   # VI. ACT
     Based on an analysis of the data, the following recommendations can be made to the Cyclistic stakeholders:
    1. The marketing campaign should be targeted at the popular start and end stations for casual riders.
