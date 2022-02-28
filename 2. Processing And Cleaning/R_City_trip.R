@@ -148,7 +148,7 @@ summary_station <- bike_rides1 %>%
   arrange(number_of_rides)
       write_csv(summary_station, "summary_stations.csv")
 
-#Overall cleaned and processed data is exported for Visualizations
+#Overall cleaned and processed data is exported for further Visualizations
 write_csv(bike_rides2,"BIKE_RIDE.csv")
 
 
