@@ -110,7 +110,7 @@ user_type <- bike_rides2 %>%
     arrange(member_casual, weekday)  
     write_csv(user_type,"user_type.csv")
 
-# Let's create a visualization for average duration
+# Let's Summarise for average duration by weekdays
 summary_wd <- bike_rides2 %>% 
   mutate(weekday = wday(started_at, label = TRUE)) %>% 
   group_by(member_casual, weekday) %>% 
@@ -120,7 +120,7 @@ summary_wd <- bike_rides2 %>%
   write_csv(summary_wd,"summary_wd.csv")
   
 
-# Let's Summarize for average duration by month 
+# Let's Summarise for average duration by month 
 summary_md <- bike_rides2 %>% 
   mutate(weekday = wday(started_at, label = TRUE)) %>% 
   group_by(member_casual, month) %>% 
@@ -130,7 +130,7 @@ summary_md <- bike_rides2 %>%
   write_csv(summary_md,"summaey_md.csv")
   
 
-# Let's summarize for which station is used by member and casual
+# Let's summarise for which station is used by member and casual
 most_station_used <- bike_rides2 %>% 
   mutate(station = start_station_name, label = TRUE) %>% 
   group_by(start_station_name, member_casual) %>% 
@@ -139,7 +139,7 @@ most_station_used <- bike_rides2 %>%
   arrange(start_station_name)
   write_csv(most_station_used,"Most Station used.csv")
 
-
+#Summarise for How many rides per station
 summary_station <- bike_rides1 %>% 
   mutate(station = start_station_name) %>%
   drop_na(start_station_name) %>% 
